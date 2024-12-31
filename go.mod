@@ -1,4 +1,4 @@
-module kitty
+module github.com/gaurav-gosain/kitty
 
 go 1.23
 
@@ -33,3 +33,5 @@ require (
 	github.com/tklauser/numcpus v0.6.1 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 )
+
+replace kitty => github.com/gaurav-gosain/kitty v0.1.0
